@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  	<title>曲登録</title>
+  	<link rel="stylesheet" type="text/css" href="main.css"/>
+  	<script type="text/javascript" src="music.js"></script>
+  </head>
+  <body>
+    <header><h1>My Music Lab</h1>
+    <hr>
+    <h2 id="h2">曲登録</h2>
+    <div id="music_form">
+        <table><tr id="music_line">
+          <td>曲名</td>
+          <td>
+            <input id="music" type="text" name="music" size="40" maxlength="32" />
+          </td>
+        </tr><tr id="artist_line">
+          <td>アーティスト名</td>
+          <td>
+            <input id="artist" type="text" name="artist" size="40" maxlength="32"/>
+          </td>
+        </tr><tr id="music_select_line">
+          <td>ジャンル選択</td>
+          <td>
+            <select name="music_select" id="music_select">
+              　<option value="music">--- 曲のジャンルを選択して下さい. ---</option>
+                <option value="j-pop">J-POP</option>
+            　  <option value="k-pop">K-POP</option>
+            　  <option value="anime">アニメ/ゲーム</option>
+            　  <option value="rock">ロック・ポップス</option>
+            　  <option value="rap">ラップ・ヒップホップ</option>
+            　  <option value="rb">R&B・ソウル</option>
+            　  <option value="club">クラブ・ダンス</option>
+            　  <option value="jazz">ジャズ</option>
+            　  <option value="classic">クラシック</option>
+            　  <option value="kayou">歌謡曲</option>
+            　  <option value="enka">演歌・民謡</option>
+            　</select>
+          </td>
+        </tr><tr id="interest_select_line">
+          <td>曲の興味度選択</td>
+          <td>
+            <select name="interest_select" id="interest_select">
+            　<option value="music">--- 曲の興味度を選択して下さい. ---</option>
+            　<option value="favorite">お気に入り</option>
+              <option value="concern">気になる</option>
+	    <option value="recommended">勧められた</option>
+	    <option value="listened">視聴済み</option>
+            </select>
+          </td>
+        </tr>
+        </table>
+        <input id="register_button" type="submit" value="登録"/>
+        <br />
+  	</div>
+    <div id="back_button_area">
+      <button id="back_button" onclick="location.href='./main.html'" type="button">戻る</button>
+    </div>
+  </body>
+</html>

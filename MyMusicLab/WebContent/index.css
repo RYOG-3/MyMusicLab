@@ -1,0 +1,66 @@
+header{
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+hr{
+  border-width: 3px;
+  border-color: skyblue;
+}
+
+#login_form, #register_form{
+	position: absolute;
+	width: 500px;
+	height: 150px;
+	margin-left: 10px;
+	margin-top: 20px;
+	padding: 8px;
+	text-align: left;
+}
+
+#login_button{
+	margin-left: 250px;
+}
+
+#newMember_button, #login_button, #register_button, #back_button{
+  background-color: #FFFFFF;
+  border: 2px solid #1B73BA;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #1B73BA;
+  display: block;
+  font-size: 15px;
+	margin-top: 25px;
+	padding: 13px 0;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  width: 230px;
+}
+
+#register_button {
+	margin-left: 250px;
+}
+
+/* マウスオーバー */
+#newMember_button:hover, #login_button:hover, #register_button:hover, #back_button:hover {
+  color: #FFFFFF;
+  background:#1B73BA;
+}
+
+#back_button{
+	margin-left: 10px;
+}
+
+#pass_line{
+	position: absolute;
+	margin-top: 10px;
+}
+
+#name{
+	margin-left: 50px;
+}

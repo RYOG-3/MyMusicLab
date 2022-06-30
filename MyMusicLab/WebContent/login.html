@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  	<title>ログイン</title>
+  	<link rel="stylesheet" type="text/css" href="index.css"/>
+  	<script type="text/javascript" src="login.js"></script>
+  </head>
+  <body>
+    <header><h1>My Music Lab</h1></header>
+    <hr>
+    <div id="login_form">
+      <h3>ログイン</h3>
+        <table><tr id="name_line">
+          <td>名前</td>
+          <td>
+            <input id="name" type="text" size="30" maxlength="32" >
+          </td>
+        </tr><tr id="pass_line">
+          <td>パスワード</td>
+          <td>
+            <input type="password" id="password" size="30" maxlength="32" >
+          </td>
+        </tr>
+        </table>
+        <br />
+        <button id="back_button" onclick="location.href='./index.html'" type="button">戻る</button>
+        <input id="login_button" type="submit" value="ログイン"/>
+  	</div>
+  </body>
+</html>

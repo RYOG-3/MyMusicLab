@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  	<title>曲閲覧</title>
+  	<link rel="stylesheet" type="text/css" href="main.css"/>
+  	<script type="text/javascript" src="friendPreview.js"></script>
+  </head>
+  <body>
+    <header><h1>My Music Lab</h1>
+    <hr>
+    <div id="preview_form">
+      <h2>曲閲覧</h2>
+        <p>ジャンル選択</p>
+      　<select name="music_select" id="music_select">
+        　<option value="music">--- 曲のジャンルを選択して下さい. ---</option>
+          <option value="all">ALL</option>
+          <option value="j-pop">J-POP</option>
+        　<option value="k-pop">K-POP</option>
+        　<option value="anime">アニメ/ゲーム</option>
+        　<option value="rock">ロック・ポップス</option>
+        　<option value="rap">ラップ・ヒップホップ</option>
+        　<option value="rb">R&B・ソウル</option>
+        　<option value="club">クラブ・ダンス</option>
+        　<option value="jazz">ジャズ</option>
+        　<option value="classic">クラシック</option>
+        　<option value="kayou">歌謡曲</option>
+        　<option value="enka">演歌・民謡</option>
+      　</select>
+      　<input type="submit" id="update" value="更新" />
+  	</div>
+    <div id=music_list>
+      <p>曲</p>
+      <table id="musicTable" border="1">
+        <tr>
+          <td>
+              曲名
+          </td>
+          <td>
+              アーティスト名
+          </td>
+          <td>
+              ジャンル
+          </td>
+          <td>
+              興味度
+          </td>
+        </tr>
+    </table>
+    </div>
+    <div id="back_button_area">
+      <button id="back_button" onclick="location.href='./friend.html'" type="button">戻る</button>
+    </div>
+  </body>
+</html>
